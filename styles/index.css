@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+}
+
+
+
+.container{
+   
+    width: 100%;
+    
+   
+    
+    
+    
+
+}
+
+.filtros {
+   
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/ricky\ moty\ bnn.jpg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+   
+}
+
+.form{
+    width: 50%;
+   
+    height: 200px;
+    padding: 30px;
+    display: flex;
+
+    justify-content: center;
+    background-color:white;
+    opacity: 0.8;
+    border-radius: 4px;
+    align-items: center;
+
+
+}
+
+.boton_envio{
+    
+   
+}
+
+
+
+.cards {
+    background-color: #171934;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-content: center;
+
+}
+
+.card_ricky{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+    
+
+}
+
+
+
+
+.card_ricky:hover {
+    box-shadow: 1px 1px 1px 1px;
+    transform: scale(1.05); /* Hacemos que la tarjeta se agrande ligeramente al pasar el cursor sobre ella */
+}
+
+.action ul{
+background-color: red;
+display: flex;
+justify-content: space-around;
+list-style: none;
+text-decoration: none;
+
+}
+.action ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+
+
+
+
+.form input {
+    width: 100%;
+    height: 12%;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    margin: 5px auto;
+    border-bottom: 1px solid #171934 ;
+    
+  
+
+}
+form select{
+    width: 100%;
+    height: 12%;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    margin: 5px auto; 
+    border-bottom: 1px solid #171934 
+    
+}
+
+
+
+.form button{
+    background-color: #171934;
+    border: none;
+    padding: 12px;
+    margin: 10px auto;
+    color: white;
+    border-radius: 4px;
+   
+
+}
+
+
+.button_next{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button_next button{
+    background-color: #171934;
+    border: none;
+    padding: 12px;
+    margin: 10px auto;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.espisode{
+    color: black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
